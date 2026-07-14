@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="home">
+
+        <div class="screen">
+
+            <div class="left">
+
+                <h1 class="heading">Weather Dashboard</h1>
+
+                <div class="search-city">
+                    <input id="search" type="text" placeholder="Enter city...">
+                    <button id="search-btn">Search</button>
+                </div>
+
+                <div class="details">
+
+                    <div class="detail-row">
+                        <span class="label">📍 City</span>
+                        <span class="city">--</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="label">🌡 Temperature</span>
+                        <span><span class="temp-value">--</span>°C</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="label">☁ Condition</span>
+                        <span class="description">--</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="label">💧 Humidity</span>
+                        <span><span class="humidity">--</span>%</span>
+                    </div>
+
+                </div>
+
+                <div class="prev-days"></div>
+
+            </div>
+
+            <div class="right">
+
+                <img class="cloud-img" src="cloud.avif" alt="Weather">
+
+                <div class="overlay">
+
+                    <div class="top">
+
+                        <h2 class="cityname">--</h2>
+
+                        <p class="today"></p>
+
+                    </div>
+
+                    <img class="icon" alt="Weather Icon">
+
+                    <h1 class="temperature">
+                        <span class="temp-value1">--</span>°
+                    </h1>
+
+                    <div class="feel-card">
+
+                        <p>Feels Like</p>
+
+                        <h2><span class="feels_like">--</span>°C</h2>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
